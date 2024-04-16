@@ -1,0 +1,65 @@
+
+.fot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .site-1 {
+    display: flex; /* Hacer que .site-1 sea un contenedor flex */
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    text-align: center; /* Alinear el texto al centro */
+    flex: 1;
+  }
+  
+  
+  .site-1 .footer-navegacion ul li{
+    margin: 0 5px; 
+  }
+  
+  .site-1 a:hover{
+    color: #2fcbef;
+  }
+  
+  .site-2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .site-3 {
+    color: #e6db74;
+    text-align: center;
+  }
+  
+  .site-2 div {
+    margin: 0 10px;
+  }
+  
+  .site-2 svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  div a svg path {
+    fill: #9a99ff;
+  }
+  
+  div a:hover svg path {
+    fill: #2fcbef;
+  }
+  
+  
+  .site-1,
+  .site-2,
+  .site-3 {
+    flex: 1;
+  }
+
+  .site-footer{
+    border: 1px solid rgb(81, 81, 81);
+  }
+
+  .contenido .site-footer .site-1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }

@@ -1,0 +1,94 @@
+.a-portafolio{
+    text-decoration: none;
+    color: #e6db74; 
+    padding: 20px;
+}
+.a-portafolio:hover{
+    color: #9a99ff;
+}
+
+.text-portafolio{
+    color: #e6db74;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.opciones{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.opciones div{
+    border: #e6db74 solid 2px;
+}
+
+.opciones div:hover{
+    border: #9a99ff solid 2px;
+}
+
+@keyframes aparecer-desaparecer {
+    0%, 10%, 90%, 100% {
+        width: 0;
+    }
+    20%, 80% {
+        width: 59%;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+        width: 0;
+    }
+  }
+  
+  @keyframes blink-caret { /* { esto es para que la barrita | se mueva */
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #e6db74;
+    }
+  }
+
+.contenido .principal .presentacion .main-portafolio {
+    color: #2fcbef;
+    width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid #e6db74;
+    animation: typing 2s steps(40) infinite, blink-caret .99s step-end infinite, aparecer-desaparecer 6s infinite;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .animacion .web-desig .main-title {
+    color: #9a99ff;
+  }
+
+  .contenido .principal .presentacion .llave {
+    color: white;
+  }
+  
+  .contenido .principal .presentacion .barrita {
+    color: #e6db74;
+  }
+
+  .contenido-portafolio{
+    display: flex;
+    justify-content: center;
+
+  }
+  .contenido-portafolio div{
+    margin-bottom: 10%;
+  }
+
+  .game-p, .rest{
+    width: 90%;
+  }
+
+  .text-studio{
+    color: #e6db74;
+    font-size: 25px;
+  }

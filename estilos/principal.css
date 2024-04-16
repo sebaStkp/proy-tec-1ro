@@ -1,0 +1,47 @@
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    background: #212121;
+    font-family: "Comic Sans MS", sans-serif;
+  }
+
+  .contenedor {
+    display: flex;
+  }
+  
+  .logo{
+    width: 6%;
+  }
+
+  .contenido .body-img, .contenido .body-img2 {
+    width: 100%;
+    height: 30vh;
+    background-image: url('../images/body.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1.5%;
+  }
+
+  .contenido .body-img2 {
+    width: 100%;
+    height: 30vh;
+    background-image: url('../images/body-scroll.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1.5%;
+  }
+
+  .cont-img, .cont-img2 {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+  }

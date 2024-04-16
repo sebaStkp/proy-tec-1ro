@@ -1,0 +1,56 @@
+.inf-me-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.abou {
+    width: 70%; /* Ancho ajustable según tus preferencias */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.abou div {
+    margin-bottom: 30px;
+}
+
+.abou h4{
+    color: #e6db74;
+    font-size: 190%;
+}
+
+.abou p{
+    color: white;
+}
+
+
+
+.tabla-abou{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tabla-abou .elementor{
+    color: #9a99ff;
+    font-size: 180%
+}
+
+.tabla-abou p{
+    color: #e6db74;
+}
+
+.tabla-abou div{
+    border: 1px solid rgb(91, 91, 91);
+    padding: 2%;
+    text-align: left;
+}
+
+.table-complete{
+    margin-top: 5%;
+}
+
+

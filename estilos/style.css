@@ -1,0 +1,137 @@
+
+.contenido .separador a {
+  text-decoration: none;
+  color: white;
+  cursor: auto;
+  font-size: 1.5vw;
+
+}
+.contenido .separador {
+  margin-bottom: 3%;
+  transform: rotate(90deg); /* Rotar la flecha 90 grados */
+}
+
+
+.sep-principal {
+  display: flex;
+  justify-content: center;
+}
+
+.inicio {
+  padding: 1.5%;
+}
+
+.contenido h2,
+.tabla-primero {
+  color: white;
+}
+
+.inf-me h2 span {
+  font-size: 5vw;
+}
+
+.elementor-widget-container {
+  color: #9a99ff;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.inf-me {
+  text-align: center;
+  padding: 1.5%;
+  
+}
+
+.inf-me p {
+  display: inline-block;
+  max-width: 55%;
+  color: #e6db74;
+  padding: 1%;
+}
+
+.tabla-primero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+}
+
+.tabla-primero div {
+  flex: 1;
+  padding: 1%;
+
+}
+
+.tabla-primero h4 {
+  font-size: 2vw;
+}
+
+.tabla-primero p {
+  width: 100%;
+}
+
+.contenido .principal .presentacion-seb {
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.boton-read {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.boton-read a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 1.5%;
+  background-color: #2fcbef;
+}
+
+.boton-read :hover {
+  background-color: #9a99ff;
+}
+
+.imgs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgs div {
+  width: 50%;
+  text-align: center;
+}
+
+.imgs img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.web-desig :hover,
+.front-end :hover {
+  background-color: #e6db74;
+}
+
+.full-stack :hover {
+  background-color: #2fcbef;
+}
+
+
+
+.contenido .principal .presentacion .fancy-stack {
+  color: aqua;
+}
+.contenido .principal .presentacion {
+  text-align: center;
+  font-size: 3vw;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+
+.numeros {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(93, 93, 93);
+    border-right: 0.1px solid rgb(93, 93, 93);
+    width: 1%;
+    gap: 0.9%;
+  }
+  
+  .numeros p {
+    margin: 2%;
+  }

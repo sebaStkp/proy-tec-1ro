@@ -1,0 +1,68 @@
+@keyframes aparecer-desaparecer {
+    0%, 10%, 90%, 100% {
+        width: 0;
+    }
+    20%, 80% {
+        width: 59%;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+        width: 0;
+    }
+  }
+  
+  @keyframes blink-caret { /* { esto es para que la barrita | se mueva */
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #e6db74;
+    }
+  }
+  .inicio {
+    padding: 1.5%;
+  }
+
+  .contenido .principal .presentacion .main-title {
+    color: #e6db74;
+    width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid #e6db74;
+    animation: typing 2s steps(40) infinite, blink-caret .99s step-end infinite, aparecer-desaparecer 6s infinite;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .animacion .web-desig .main-title {
+    color: #9a99ff;
+  }
+
+  .contenido .principal .presentacion .llave {
+    color: white;
+  }
+  
+  .contenido .principal .presentacion .barrita {
+    color: #e6db74;
+  }
+  
+
+
+
+  .anim-1, .anim-2, .anim-3{
+    overflow: hidden;
+    border-right: 0.15em solid #e6db74;
+    animation: blink-caret .99s step-end infinite;
+    display: inline-block;
+  }
+  
+  .anim-2{
+    color: rgb(47, 203, 239);
+  }
+  
+  .anim-3{
+    color: #e6db74;
+  }
